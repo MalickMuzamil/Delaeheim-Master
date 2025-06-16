@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h1 align="center">🚗 Delarheim - Car Inventory Web App</h1>
 
-## Getting Started
+<p align="center">
+  <img src="https://img.shields.io/badge/Framework-Next.js-black?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Styling-TailwindCSS-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Functional-Search%20%7C%20Filters-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Complete-success?style=for-the-badge" />
+</p>
 
-First, run the development server:
+---
 
-```bash
+## 📄 Description
+
+**Delarheim** is a full-featured car inventory web application built using **Next.js** and **Tailwind CSS**. It provides a user-friendly and responsive interface to browse, search, and filter cars — just like OLX or other vehicle listing platforms. Built with performance and scalability in mind.
+
+---
+
+## ✨ Features
+
+🚘 Car listings with detailed info and images  
+🔎 Real-time search functionality with keyword support  
+📂 Multiple filters: brand, model, price range, condition, fuel type, etc.  
+📱 Fully responsive design across all screen sizes  
+⚡ Optimized performance with Next.js server-side rendering  
+🧩 Component-based architecture for reusability  
+📤 Easy to integrate with backend/database
+
+---
+
+## 🧑‍💻 Tech Stack
+
+- **Framework:** Next.js 13+ (App Router)  
+- **Styling:** Tailwind CSS  
+- **Search & Filter:** Dynamic routing, query params, controlled state  
+- **Deployment:** Vercel (recommended)
+
+---
+
+## 🚀 Getting Started
+
+### 📥 Clone the Repository
+
+git clone https://github.com/your-username/delarheim.git
+
+cd delarheim
+
+
+## 📦 Install Dependencies
+npm install
+
+
+## ▶️ Run the Development Server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Now open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Project Structure
+delarheim/
+├── app/                    # App router structure (Next.js)
+│   ├── layout.js
+│   ├── page.js
+│   └── /cars/              # Dynamic routes for filters/search
+├── components/            # Reusable UI components
+├── public/                # Static images and icons
+├── styles/                # Tailwind config
+├── utils/                 # Filter functions, data
+├── tailwind.config.js
+├── next.config.js
+└── README.md
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## 🔍 Filters Example
+✅ Brand: Toyota, Honda, BMW, etc.
 
-To learn more about Next.js, take a look at the following resources:
+✅ Condition: New, Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+✅ Fuel Type: Petrol, Diesel, Hybrid
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+✅ Price Range: Slider or input range
 
-## Deploy on Vercel
+✅ Year, Color, Body Type filters
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+✅ Keyword Search
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📚 Learnings
+✅ Built scalable filter logic using query params
+
+✅ Server-side rendering with dynamic routes
+
+✅ Tailwind CSS utility-first responsive layout
+
+✅ Organized reusable component structure in Next.js
+
+✅ SEO-friendly and optimized performance
+
+## 🧑‍💻 Author
+
+Made with 🚀 by MalickMuzamil
+
+📫 malikmuzamil92110@gmail.com
+
+🔗 LinkedIn (https://www.linkedin.com/in/malik-muzamil/)
+
+**"Find your next ride with ease Delarheim makes browsing cars simple and fast."**
