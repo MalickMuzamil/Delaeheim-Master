@@ -97,8 +97,7 @@ delarheim/
 
 Made with 🚀 by MalickMuzamil
 
-📫 malikmuzamil92110@gmail.com
+<!-- 📧 Email: malikmuzamil92110@example.com | 💼 LinkedIn: linkedin.com/in/malik-muzamil -->
 
-🔗 LinkedIn (https://www.linkedin.com/in/malik-muzamil/)
 
 **"Find your next ride with ease Delarheim makes browsing cars simple and fast."**
