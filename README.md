@@ -55,10 +55,15 @@ lenscraft/
 └── README.md
 
 ## 🧠 Learnings
+
 ✅ Mastered responsive layouts with Tailwind
+
 ✅ Built interactive gallery with filtering and lightbox
+
 ✅ Integrated smooth UI animations with Framer Motion
+
 ✅ Designed reusable React components for scalability
+
 ✅ Deployed to Netlify/Vercel for fast hosting
 
 ## 🧑‍💻 Author
