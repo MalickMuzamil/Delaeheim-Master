@@ -1,49 +1,34 @@
-<h1 align="center">🚗 Delarheim - Car Inventory Web App</h1>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Framework-Next.js-black?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Styling-TailwindCSS-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Functional-Search%20%7C%20Filters-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Status-Complete-success?style=for-the-badge" />
-</p>
-
----
+<h1 align="center">📸 LensCraft Photography Portfolio Website</h1> <p align="center"> <img src="https://img.shields.io/badge/Framework-React-blue?style=for-the-badge" /> <img src="https://img.shields.io/badge/Styling-TailwindCSS-teal?style=for-the-badge" /> <img src="https://img.shields.io/badge/Features-Gallery%20%7C%20Lightbox%20%7C%20Contact-success?style=for-the-badge" /> <img src="https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge" /> </p>
 
 ## 📄 Description
+LensCraft is a modern, responsive photography portfolio website built with React and Tailwind CSS. Designed to showcase professional photography work in an elegant gallery layout with smooth animations and a focus on user experience.
 
-**Delarheim** is a full-featured car inventory web application built using **Next.js** and **Tailwind CSS**. It provides a user-friendly and responsive interface to browse, search, and filter cars — just like OLX or other vehicle listing platforms. Built with performance and scalability in mind.
-
----
+Whether you're a freelance photographer, creative studio, or visual artist — LensCraft helps you display your work beautifully.
 
 ## ✨ Features
-
-🚘 Car listings with detailed info and images  
-🔎 Real-time search functionality with keyword support  
-📂 Multiple filters: brand, model, price range, condition, fuel type, etc.  
-📱 Fully responsive design across all screen sizes  
-⚡ Optimized performance with Next.js server-side rendering  
-🧩 Component-based architecture for reusability  
-📤 Easy to integrate with backend/database
-
----
+📷 Clean and elegant photo gallery with category filtering
+🖼️ Lightbox viewer for fullscreen image previews
+📱 Fully responsive and mobile-friendly layout
+📬 Contact form with email integration (e.g. EmailJS)
+🎨 Dark/light theme ready (optional)
+⚙️ Smooth scroll and simple animations with Framer Motion
+🧩 Modular, reusable React components
 
 ## 🧑‍💻 Tech Stack
+Frontend Framework: React (Vite or Create React App)
 
-- **Framework:** Next.js 13+ (App Router)  
-- **Styling:** Tailwind CSS  
-- **Search & Filter:** Dynamic routing, query params, controlled state  
-- **Deployment:** Vercel (recommended)
+Styling: Tailwind CSS
 
----
+Animations: Framer Motion
+
+Lightbox: react-image-lightbox or similar
+
+Deployment: Vercel, Netlify, or GitHub Pages
 
 ## 🚀 Getting Started
-
-### 📥 Clone the Repository
-
-git clone https://github.com/your-username/delarheim.git
-
-cd delarheim
-
+## 📥 Clone the Repository
+git clone https://github.com/your-username/lenscraft.git
+cd lenscraft
 
 ## 📦 Install Dependencies
 npm install
@@ -51,53 +36,33 @@ npm install
 
 ## ▶️ Run the Development Server
 npm run dev
-
-Now open http://localhost:3000 in your browser.
+Now open http://localhost:5173 in your browser.
 
 ## 📁 Project Structure
-delarheim/
-├── app/                    # App router structure (Next.js)
-│   ├── layout.js
-│   ├── page.js
-│   └── /cars/              # Dynamic routes for filters/search
-├── components/            # Reusable UI components
-├── public/                # Static images and icons
-├── styles/                # Tailwind config
-├── utils/                 # Filter functions, data
+csharp
+Copy
+Edit
+lenscraft/
+├── src/
+│   ├── assets/              # Images and media
+│   ├── components/          # Navbar, Gallery, Footer, etc.
+│   ├── pages/               # Home, About, Contact
+│   ├── App.jsx              # Main App
+│   └── index.js             # Entry point
+├── public/                  # Static files
 ├── tailwind.config.js
-├── next.config.js
+├── vite.config.js
 └── README.md
 
-
-## 🔍 Filters Example
-✅ Brand: Toyota, Honda, BMW, etc.
-
-✅ Condition: New, Used
-
-✅ Fuel Type: Petrol, Diesel, Hybrid
-
-✅ Price Range: Slider or input range
-
-✅ Year, Color, Body Type filters
-
-✅ Keyword Search
-
-## 📚 Learnings
-✅ Built scalable filter logic using query params
-
-✅ Server-side rendering with dynamic routes
-
-✅ Tailwind CSS utility-first responsive layout
-
-✅ Organized reusable component structure in Next.js
-
-✅ SEO-friendly and optimized performance
+## 🧠 Learnings
+✅ Mastered responsive layouts with Tailwind
+✅ Built interactive gallery with filtering and lightbox
+✅ Integrated smooth UI animations with Framer Motion
+✅ Designed reusable React components for scalability
+✅ Deployed to Netlify/Vercel for fast hosting
 
 ## 🧑‍💻 Author
-
-Made with 🚀 by MalickMuzamil
+Made with ❤️ by MalickMuzamil
 
 <!-- 📧 Email: malikmuzamil92110@example.com | 💼 LinkedIn: linkedin.com/in/malik-muzamil -->
-
-
-**"Find your next ride with ease Delarheim makes browsing cars simple and fast."**
+"Turn moments into masterpieces — LensCraft brings your photography to life."
