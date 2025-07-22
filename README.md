@@ -40,7 +40,7 @@
 
 ### 📥 Clone the Repository
 
-git clone https://github.com/your-username/delarheim.git
+git clone https://github.com/MalickMuzamil/delarheim.git
 
 cd delarheim
 
@@ -54,20 +54,35 @@ npm run dev
 
 Now open http://localhost:3000 in your browser.
 
+---
+
 ## 📁 Project Structure
+
 delarheim/
+
 ├── app/                    # App router structure (Next.js)
+
 │   ├── layout.js
+
 │   ├── page.js
+
 │   └── /cars/              # Dynamic routes for filters/search
+
 ├── components/            # Reusable UI components
+
 ├── public/                # Static images and icons
+
 ├── styles/                # Tailwind config
+
 ├── utils/                 # Filter functions, data
+
 ├── tailwind.config.js
+
 ├── next.config.js
+
 └── README.md
 
+---
 
 ## 🔍 Filters Example
 ✅ Brand: Toyota, Honda, BMW, etc.
@@ -82,6 +97,8 @@ delarheim/
 
 ✅ Keyword Search
 
+---
+
 ## 📚 Learnings
 ✅ Built scalable filter logic using query params
 
@@ -93,11 +110,15 @@ delarheim/
 
 ✅ SEO-friendly and optimized performance
 
+---
+
 ## 🧑‍💻 Author
 
 Made with 🚀 by MalickMuzamil
 
-<!-- 📧 Email: malikmuzamil92110@example.com | 💼 LinkedIn: linkedin.com/in/malik-muzamil -->
+📧 Email: malikmuzamil92110@example.com 
+
+💼 LinkedIn: linkedin.com/in/malik-muzamil
 
 
 **"Find your next ride with ease Delarheim makes browsing cars simple and fast."**
