@@ -112,7 +112,7 @@ delarheim/
 
 ---
 
-## 🧑‍💻 Author
+### 🧑‍💻 Author
 
 Made with 🚀 by MalickMuzamil
 
